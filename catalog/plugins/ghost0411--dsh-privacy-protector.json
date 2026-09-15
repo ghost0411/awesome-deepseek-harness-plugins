@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "ghost0411/dsh-privacy-protector",
+  "name": "dsh-privacy-protector",
+  "repository": "https://github.com/ghost0411/dsh-privacy-protector",
+  "category": "tools",
+  "description": {
+    "en": "Privacy protector for DeepSeek Harness: per-session toggle, syntactically pseudonymize PII before it reaches the model, restore after response.",
+    "zh": "DeepSeek Harness 隐私保护插件：发送前把身份证/手机号/银行卡等替换成占位符，模型只见占位符、答完还原；敏感话题守护 + 诱导锁定反社会工程。"
+  },
+  "added": "2026-09-15"
+}
